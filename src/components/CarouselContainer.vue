@@ -48,7 +48,7 @@ export default {
         {
           title: "Frontend",
           skills: [
-            { name: "HTML5", icon: "HTML5.png" },
+            { name: "HTML", icon: "HTML5.png" },
             { name: "CSS", icon: "css.png" },
             { name: "JavaScript", icon: "JavaScript.png" },
             { name: "TypeScript", icon: "TypeScript.png" },
