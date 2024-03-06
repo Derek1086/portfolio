@@ -68,7 +68,7 @@ export default {
           ],
         },
         {
-          title: "Misc.",
+          title: "Other",
           skills: [
             { name: "Python", icon: "Python.png" },
             { name: "Java", icon: "Java.png" },

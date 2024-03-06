@@ -115,7 +115,7 @@
                 class="item-card"
                 elevation="2"
                 max-width="344"
-                min-height="675"
+                min-height="600"
               >
                 <v-img
                   style="border-radius: 20px"
@@ -158,17 +158,29 @@
                     justify-content: center;
                   "
                 >
-                  <div style="width: 50%; margin-bottom: 20px">
-                    <h4>Code</h4>
-                    <v-btn
-                      icon="fa-brands fa-github"
-                      variant="tile"
-                      @click="
-                        openLink(
-                          'https://github.com/Derek1086/Sentiment_Analysis/tree/main/Sentiment_Analysis'
-                        )
+                  <div style="width: 100%; margin-bottom: 20px">
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink(
+                            'https://github.com/Derek1086/Sentiment_Analysis/tree/main/Sentiment_Analysis'
+                          )
+                        "
+                      >
+                        <h4>Code</h4>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                 </div>
               </v-card>
@@ -178,7 +190,7 @@
                 class="item-card"
                 elevation="2"
                 max-width="344"
-                min-height="675"
+                min-height="600"
               >
                 <v-img
                   style="border-radius: 20px"
@@ -250,22 +262,48 @@
                   "
                 >
                   <div style="width: 50%">
-                    <h4>Code</h4>
-                    <v-btn
-                      icon="fa-brands fa-github"
-                      variant="tile"
-                      @click="
-                        openLink('https://github.com/Derek1086/expense-app')
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink('https://github.com/Derek1086/expense-app')
+                        "
+                      >
+                        <h4>Code</h4>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                   <div style="width: 50%">
-                    <h4>Live Demo</h4>
-                    <v-btn
-                      icon="fa-solid fa-arrow-up-right-from-square"
-                      variant="tile"
-                      @click="openLink('https://react-practice-9e728.web.app/')"
-                    />
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                      "
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink('https://react-practice-9e728.web.app/')
+                        "
+                      >
+                        <h4>Live Demo</h4>
+                        <v-icon
+                          icon="fa-solid fa-arrow-up-right-from-square"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                 </div>
               </v-card>
@@ -275,7 +313,7 @@
                 class="item-card"
                 elevation="2"
                 max-width="344"
-                min-height="675"
+                min-height="600"
               >
                 <v-img
                   style="border-radius: 20px"
@@ -358,24 +396,48 @@
                   "
                 >
                   <div style="width: 50%">
-                    <h4>Code</h4>
-                    <v-btn
-                      icon="fa-brands fa-github"
-                      variant="tile"
-                      @click="
-                        openLink('https://github.com/Derek1086/notes-app')
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink('https://github.com/Derek1086/notes-app')
+                        "
+                      >
+                        <h4>Code</h4>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                   <div style="width: 50%">
-                    <h4>Live Demo</h4>
-                    <v-btn
-                      icon="fa-solid fa-arrow-up-right-from-square"
-                      variant="tile"
-                      @click="
-                        openLink('https://dereks-notes-web-app.web.app/notes')
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink('https://dereks-notes-web-app.web.app/notes')
+                        "
+                      >
+                        <h4>Live Demo</h4>
+                        <v-icon
+                          icon="fa-solid fa-arrow-up-right-from-square"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                 </div>
               </v-card>
@@ -385,7 +447,7 @@
                 class="item-card"
                 elevation="2"
                 max-width="344"
-                min-height="675"
+                min-height="600"
               >
                 <v-img
                   style="border-radius: 20px"
@@ -431,16 +493,28 @@
                   "
                 >
                   <div style="width: 50%">
-                    <h4>Code</h4>
-                    <v-btn
-                      icon="fa-brands fa-github"
-                      variant="tile"
-                      @click="
-                        openLink(
-                          'https://github.com/Derek1086/RecommenderSystemsProj/tree/main/RecSysProject'
-                        )
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink(
+                            'https://github.com/Derek1086/RecommenderSystemsProj/tree/main/RecSysProject'
+                          )
+                        "
+                      >
+                        <h4>Code</h4>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                 </div>
               </v-card>
@@ -450,7 +524,7 @@
                 class="item-card"
                 elevation="2"
                 max-width="344"
-                min-height="675"
+                min-height="600"
               >
                 <v-img
                   style="border-radius: 20px"
@@ -508,28 +582,52 @@
                   "
                 >
                   <div style="width: 50%">
-                    <h4>Code</h4>
-                    <v-btn
-                      icon="fa-brands fa-github"
-                      variant="tile"
-                      @click="
-                        openLink(
-                          'https://github.com/Derek1086/fly_mov/tree/main'
-                        )
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink(
+                            'https://github.com/Derek1086/fly_mov/tree/main'
+                          )
+                        "
+                      >
+                        <h4>Code</h4>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                   <div style="width: 50%">
-                    <h4>Live Demo</h4>
-                    <v-btn
-                      icon="fa-solid fa-arrow-up-right-from-square"
-                      variant="tile"
-                      @click="
-                        openLink(
-                          'https://www.roblox.com/games/16144887451/fly-mov'
-                        )
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink(
+                            'https://www.roblox.com/games/16144887451/fly-mov'
+                          )
+                        "
+                      >
+                        <h4>Live Demo</h4>
+                        <v-icon
+                          icon="fa-solid fa-arrow-up-right-from-square"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                 </div>
               </v-card>
@@ -539,7 +637,7 @@
                 class="item-card"
                 elevation="2"
                 max-width="344"
-                min-height="675"
+                min-height="600"
               >
                 <v-img
                   style="border-radius: 20px"
@@ -622,22 +720,48 @@
                   "
                 >
                   <div style="width: 50%">
-                    <h4>Code</h4>
-                    <v-btn
-                      icon="fa-brands fa-github"
-                      variant="tile"
-                      @click="
-                        openLink('https://github.com/Derek1086/holdfast-census')
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                       "
-                    />
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink(
+                            'https://github.com/Derek1086/holdfast-census'
+                          )
+                        "
+                      >
+                        <h4>Code</h4>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                   <div style="width: 50%">
-                    <h4>Live Demo</h4>
-                    <v-btn
-                      icon="fa-solid fa-arrow-up-right-from-square"
-                      variant="tile"
-                      @click="openLink('https://holdfast-census.vercel.app/')"
-                    />
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                      "
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="openLink('https://holdfast-census.vercel.app/')"
+                      >
+                        <h4>Live Demo</h4>
+                        <v-icon
+                          icon="fa-solid fa-arrow-up-right-from-square"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
                   </div>
                 </div>
               </v-card>
@@ -674,8 +798,16 @@
           <span class="text-grey">Get In Touch</span>
           <h1 class="text-black">Contact Me</h1>
           <br />
-          <div style="display: flex; gap: 10%">
-            <v-card class="item-card" elevation="2" style="width: 100%">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10%;
+              flex-wrap: wrap;
+            "
+          >
+            <v-card class="item-card" elevation="2" style="width: 50%">
               <div
                 style="
                   display: flex;
@@ -684,17 +816,11 @@
                   flex-wrap: wrap;
                 "
               >
-                <div style="width: 33.33%">
+                <div style="width: 50%">
                   <v-icon icon="fa-solid fa-phone" /><br /><br />
                   <span class="text-grey">+1 512-635-9513</span>
                 </div>
-                <div style="width: 33.34%">
-                  <v-icon icon="fa-solid fa-location-dot" /><br /><br />
-                  <span class="text-grey"
-                    >1647 Post Rd San Marcos, TX 78666
-                  </span>
-                </div>
-                <div style="width: 33.33%">
+                <div style="width: 50%">
                   <v-icon icon="fa-solid fa-envelope" /><br /><br />
                   <span class="text-grey">derekavila1086@gmail.com</span>
                 </div>
@@ -870,6 +996,18 @@ export default defineComponent({
   border-radius: 20px !important;
   border: 2px solid black;
   padding: 20px;
+}
+
+.button-card {
+  border-radius: 20px !important;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.button-card:hover {
+  border: 2px solid black;
+  color: white;
+  background-color: black;
 }
 
 .pre {
