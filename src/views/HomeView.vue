@@ -35,7 +35,18 @@
       </div>
       <v-col cols="12" id="about">
         <div class="pre-extra">
-          <h1 class="mt-16">About Me</h1>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+            "
+          >
+            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
+            <h1 class="mt-16">About Me</h1>
+            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
+          </div>
           <br />
           <p class="text-grey">
             I'm a passionate software developer with a solid foundation in help
@@ -52,7 +63,7 @@
             environment enhances my development work, ensuring solutions that
             exceed user expectations.
           </p>
-          <v-btn tile dark color="purple" class="mt-4" @click="downloadPDF">
+          <v-btn tile dark color="black" class="mt-4" @click="downloadPDF">
             Download Resume
           </v-btn>
         </div>
@@ -61,7 +72,18 @@
       <v-divider />
       <v-col cols="12" id="portfolio">
         <div class="pre">
-          <h1 class="mt-16">Projects</h1>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+            "
+          >
+            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
+            <h1 class="mt-16">Projects</h1>
+            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
+          </div>
           <br />
           <v-row>
             <v-col cols="12" sm="4">
@@ -368,8 +390,7 @@
                   This is a pvp based game built with the Roblox Studio game
                   engine using Lua as the programming langauge. The combat and
                   mechanics are inspired by Homelander from the TV show "The
-                  Boys." This is a small project done in a week to test my game
-                  development skills.
+                  Boys."
                 </v-card-text>
                 <div
                   style="
@@ -542,241 +563,23 @@
       </v-col>
       <br />
       <v-divider />
-      <br />
       <v-col id="skills">
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+          "
+        >
+          <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
+          <h1 class="mt-16">Skills</h1>
+          <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
+        </div>
         <v-row>
           <v-col cols="12">
             <div class="child">
-              <br />
-              <h2>Web Dev Skills</h2>
-              <div class="cont">
-                <div class="sect">
-                  <div>
-                    <h3>Frontend</h3>
-                  </div>
-                  <div class="listitems">
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('HTML5.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">HTML5</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('css.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">CSS</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('JavaScript.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">JavaScript</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('TypeScript.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">TypeScript</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Reactjs.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">ReactJS</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('mui.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Material UI</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Nextjs.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">NextJS</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('vue.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">VueJS</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="sect">
-                  <div>
-                    <h3>Backend</h3>
-                  </div>
-                  <div class="listitems">
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('mongodb.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">mongoDB</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('nodejs.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">NodeJS</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Firebase.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Firebase</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Vercel.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Vercel</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <br />
-              <h2>Software Dev Skills</h2>
-              <div class="cont">
-                <div class="sect" style="width: 100%">
-                  <div class="listitems">
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Python.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Python</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Java.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Java</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Lua.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Lua</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('cplusplus.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">C++</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('RBX.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Roblox Studio</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <CarouselContainer />
             </div>
           </v-col>
         </v-row>
@@ -786,7 +589,24 @@
         <v-row>
           <v-col cols="12">
             <div class="child">
-              <h1>Contact Info</h1>
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 10px;
+                "
+              >
+                <v-icon
+                  class="fa-solid fa-diamond mt-16"
+                  style="font-size: 12px"
+                />
+                <h1 class="mt-16">Contact Info</h1>
+                <v-icon
+                  class="fa-solid fa-diamond mt-16"
+                  style="font-size: 12px"
+                />
+              </div>
               <div
                 style="
                   display: flex;
@@ -841,9 +661,8 @@
 
 <script>
 import { defineComponent } from "vue";
-
-// Components
 import NavBar from "../components/NavBar.vue";
+import CarouselContainer from "../components/CarouselContainer.vue";
 
 export default defineComponent({
   name: "HomeView",
@@ -939,6 +758,7 @@ export default defineComponent({
   },
   components: {
     NavBar,
+    CarouselContainer,
   },
 });
 </script>
@@ -997,22 +817,6 @@ export default defineComponent({
 .sect {
   width: 50%;
   height: 100%;
-}
-
-.listitems {
-  margin-top: 20px;
-  display: flex;
-  gap: 10%;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.childSkills {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  margin-top: 10px;
 }
 
 .pre {
