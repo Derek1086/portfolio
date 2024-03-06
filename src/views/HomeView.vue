@@ -656,13 +656,10 @@
           <br />
           <span class="text-grey">Explore My</span>
           <h1 class="text-black">Skills</h1>
-          <v-row>
-            <v-col cols="12">
-              <div class="child">
-                <CarouselContainer />
-              </div>
-            </v-col>
-          </v-row>
+          <br />
+          <v-card class="item-card" elevation="2" style="width: 100%">
+            <CarouselContainer />
+          </v-card>
         </div>
       </v-col>
       <br />
@@ -870,14 +867,6 @@ export default defineComponent({
   border-radius: 20px !important;
   border: 2px solid black;
   padding: 20px;
-}
-
-.child {
-  display: inline-block;
-  padding: 2rem 1rem;
-  vertical-align: middle;
-  text-align: center;
-  width: 100%;
 }
 
 .pre {
