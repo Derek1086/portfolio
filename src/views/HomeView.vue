@@ -63,16 +63,8 @@
           <v-row>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <a
-                  href="https://github.com/Derek1086/Sentiment_Analysis/tree/main/Sentiment_Analysis"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <v-img src="Sentiment_Img.png" height="200px" cover></v-img>
-                </a>
-
+                <v-img src="Sentiment_Img.png" height="200px" cover></v-img>
                 <v-card-title>Sentiment Analysis</v-card-title>
-
                 <v-card-subtitle> October 2022 </v-card-subtitle>
                 <v-card-text>
                   This Java program classifies a set of movie reviews as
@@ -80,18 +72,51 @@
                   was completed for my Object-Oriented Design and Programming
                   class.
                 </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <div style="width: 25%; margin-bottom: 20px">
+                    <v-icon
+                      style="
+                        background-image: url('Java.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Java</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <div style="width: 50%; margin-bottom: 20px">
+                    <h4>Code</h4>
+                    <v-btn
+                      icon="fa-brands fa-github"
+                      variant="tile"
+                      @click="
+                        openLink(
+                          'https://github.com/Derek1086/Sentiment_Analysis/tree/main/Sentiment_Analysis'
+                        )
+                      "
+                    />
+                  </div>
+                </div>
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <a
-                  href="https://react-practice-9e728.web.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <v-img src="Expense_Img.png" height="200px" cover></v-img>
-                </a>
-
+                <v-img src="Expense_Img.png" height="200px" cover></v-img>
                 <v-card-title>Budget Manager</v-card-title>
 
                 <v-card-subtitle> December 2022 </v-card-subtitle>
@@ -102,20 +127,84 @@
                   will generate a pie chart so the user can visualize their
                   expenses.
                 </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Reactjs.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">ReactJS</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('css.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">CSS</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('JavaScript.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">JavaScript</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 50%">
+                    <h4>Code</h4>
+                    <v-btn
+                      icon="fa-brands fa-github"
+                      variant="tile"
+                      @click="
+                        openLink('https://github.com/Derek1086/expense-app')
+                      "
+                    />
+                  </div>
+                  <div style="width: 50%">
+                    <h4>Live Demo</h4>
+                    <v-btn
+                      icon="fa-solid fa-arrow-up-right-from-square"
+                      variant="tile"
+                      @click="openLink('https://react-practice-9e728.web.app/')"
+                    />
+                  </div>
+                </div>
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <a
-                  href="https://dereks-notes-web-app.web.app/notes"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <v-img src="Notes_Img.png" height="200px" cover></v-img>
-                </a>
-
+                <v-img src="Notes_Img.png" height="200px" cover></v-img>
                 <v-card-title>Notes App</v-card-title>
-
                 <v-card-subtitle> July 2023 </v-card-subtitle>
                 <v-card-text>
                   Notes app is an app built with typescript to help manage any
@@ -124,61 +213,231 @@
                   user to use their voice to write and filter their notes
                   without having to type.
                 </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Reactjs.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">ReactJS</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('mui.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Material UI</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('TypeScript.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">TypeScript</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Firebase.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Firebase</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 50%">
+                    <h4>Code</h4>
+                    <v-btn
+                      icon="fa-brands fa-github"
+                      variant="tile"
+                      @click="
+                        openLink('https://github.com/Derek1086/notes-app')
+                      "
+                    />
+                  </div>
+                  <div style="width: 50%">
+                    <h4>Live Demo</h4>
+                    <v-btn
+                      icon="fa-solid fa-arrow-up-right-from-square"
+                      variant="tile"
+                      @click="
+                        openLink('https://dereks-notes-web-app.web.app/notes')
+                      "
+                    />
+                  </div>
+                </div>
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <a
-                  href="https://github.com/Derek1086/RecommenderSystemsProj/tree/main/RecSysProject"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <v-img src="RecSys_Img.png" height="200px" cover></v-img>
-                </a>
-
+                <v-img src="RecSys_Img.png" height="200px" cover></v-img>
                 <v-card-title>Yelp Recommender System</v-card-title>
-
                 <v-card-subtitle> November 2023 </v-card-subtitle>
                 <v-card-text>
                   Created for a final project for my Recommender Systems class,
                   this program provides better recommendations to users than
-                  yelp would by utilizing python machine learning libraries to
-                  provide personalized recommendations based on time slots.
+                  yelp would by utilizing the surprise machine learning library
+                  to provide personalized recommendations based on time slots.
                 </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Python.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Python</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 50%">
+                    <h4>Code</h4>
+                    <v-btn
+                      icon="fa-brands fa-github"
+                      variant="tile"
+                      @click="
+                        openLink(
+                          'https://github.com/Derek1086/RecommenderSystemsProj/tree/main/RecSysProject'
+                        )
+                      "
+                    />
+                  </div>
+                </div>
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <a
-                  href="https://github.com/Derek1086/fly_mov/tree/main"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <v-img src="Fly_Img.png" height="200px" cover></v-img>
-                </a>
-
+                <v-img src="Fly_Img.png" height="200px" cover></v-img>
                 <v-card-title>Fly.mov</v-card-title>
-
                 <v-card-subtitle> January 2024 </v-card-subtitle>
                 <v-card-text>
                   This is a pvp based game built with the Roblox Studio game
                   engine using Lua as the programming langauge. This is a small
                   project done in a week to test my game development skills.
                 </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('RBX.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Roblox Studio</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Lua.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Lua</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 50%">
+                    <h4>Code</h4>
+                    <v-btn
+                      icon="fa-brands fa-github"
+                      variant="tile"
+                      @click="
+                        openLink(
+                          'https://github.com/Derek1086/fly_mov/tree/main'
+                        )
+                      "
+                    />
+                  </div>
+                  <div style="width: 50%">
+                    <h4>Live Demo</h4>
+                    <v-btn
+                      icon="fa-solid fa-arrow-up-right-from-square"
+                      variant="tile"
+                      @click="
+                        openLink(
+                          'https://www.roblox.com/games/16144887451/fly-mov'
+                        )
+                      "
+                    />
+                  </div>
+                </div>
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <a
-                  href="https://github.com/Derek1086/holdfast-census"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <v-img src="HF_Census_Img.png" height="200px" cover></v-img>
-                </a>
-
+                <v-img src="HF_Census_Img.png" height="200px" cover></v-img>
                 <v-card-title>Holdfast Melee Census</v-card-title>
-
                 <v-card-subtitle> February 2024 </v-card-subtitle>
                 <v-card-text>
                   Holdfast Melee Census is a tool created for the Holdfast:
@@ -187,6 +446,90 @@
                   interface for users to view census information on an
                   interactive map.
                 </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Reactjs.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">ReactJS</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('mongodb.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">mongoDB</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('TypeScript.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">TypeScript</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('JavaScript.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">JavaScript</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 50%">
+                    <h4>Code</h4>
+                    <v-btn
+                      icon="fa-brands fa-github"
+                      variant="tile"
+                      @click="
+                        openLink('https://github.com/Derek1086/holdfast-census')
+                      "
+                    />
+                  </div>
+                  <div style="width: 50%">
+                    <h4>Live Demo</h4>
+                    <v-btn
+                      icon="fa-solid fa-arrow-up-right-from-square"
+                      variant="tile"
+                      @click="openLink('https://holdfast-census.vercel.app/')"
+                    />
+                  </div>
+                </div>
               </v-card>
             </v-col>
           </v-row>
@@ -402,6 +745,18 @@
                       <br />
                       <span class="text-caption">C++</span>
                     </div>
+                    <div class="childSkills">
+                      <v-icon
+                        style="
+                          background-image: url('RBX.png');
+                          background-size: contain;
+                          height: 50px;
+                          width: 50px;
+                        "
+                      />
+                      <br />
+                      <span class="text-caption">Roblox Studio</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -448,14 +803,16 @@
                 icon="fa-brands fa-square-github"
                 variant="plain"
                 color=""
-                @click="openGitHub"
+                @click="openLink('https://github.com/Derek1086')"
               />
               <v-btn
                 class="m1-10"
-                icon="fa-brands fa-linkedin-in"
+                icon="fa-brands fa-linkedin"
                 variant="plain"
                 color=""
-                @click="openLinkedIn"
+                @click="
+                  openLink('https://www.linkedin.com/in/derek-avila-950657236/')
+                "
               />
             </div>
           </v-col>
@@ -539,18 +896,15 @@ export default defineComponent({
         {
           img: "Firebase.png",
         },
+        {
+          img: "RBX.png",
+        },
       ],
     };
   },
   methods: {
-    openGitHub() {
-      window.open("https://github.com/Derek1086", "_blank");
-    },
-    openLinkedIn() {
-      window.open(
-        "https://www.linkedin.com/in/derek-avila-950657236/",
-        "_blank"
-      );
+    openLink(url) {
+      window.open(url, "_blank");
     },
   },
   components: {
