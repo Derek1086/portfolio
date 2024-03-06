@@ -537,11 +537,11 @@
       </v-col>
       <br />
       <v-divider />
+      <br />
       <v-col id="skills">
         <v-row>
           <v-col cols="12">
             <div class="child">
-              <h1>Skills</h1>
               <br />
               <h2>Web Dev Skills</h2>
               <div class="cont">
