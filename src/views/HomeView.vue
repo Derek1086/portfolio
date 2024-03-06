@@ -15,6 +15,29 @@
                 >Aspiring Web Developer and Software Engineer</span
               >
               <br />
+              <v-btn tile dark class="mt-4 download-btn" @click="downloadPDF">
+                Download Resume
+              </v-btn>
+              <div>
+                <v-btn
+                  class="m1-10"
+                  icon="fa-brands fa-github"
+                  variant="plain"
+                  color="#ffffff"
+                  @click="openLink('https://github.com/Derek1086')"
+                />
+                <v-btn
+                  class="m1-10"
+                  icon="fa-brands fa-linkedin-in"
+                  variant="plain"
+                  color="#ffffff"
+                  @click="
+                    openLink(
+                      'https://www.linkedin.com/in/derek-avila-950657236/'
+                    )
+                  "
+                />
+              </div>
             </div>
           </v-col>
           <v-col cols="2">
@@ -35,20 +58,29 @@
       </div>
       <v-col cols="12" id="about">
         <div class="pre-extra">
-          <div
-            style="
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              gap: 10px;
-            "
-          >
-            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
-            <h1 class="mt-16">About Me</h1>
-            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
-          </div>
+          <span class="text-grey">Get To Know More</span>
+          <h1 class="text-black">About Me</h1>
           <br />
-          <p class="text-grey">
+          <div style="display: flex; gap: 10%">
+            <v-card class="item-card" elevation="2" style="width: 45%">
+              <v-icon class="fa-solid fa-graduation-cap" />
+              <h3 class="mt-4">Education</h3>
+              <span class="text-grey">Texas State University</span><br />
+              <span class="text-grey"
+                >Bachelor's of Science in Computer Science</span
+              >
+            </v-card>
+            <v-card class="item-card" elevation="2" style="width: 45%">
+              <v-icon class="fa-solid fa-award" />
+              <h3 class="mt-4">Certifications</h3>
+              <span class="text-grey">Udemy</span><br />
+              <span class="text-grey"
+                >React - The Complete Guide (incl Hooks, React Router,
+                Redux)</span
+              ></v-card
+            >
+          </div>
+          <p class="text-grey mt-4">
             I'm a passionate software developer with a solid foundation in help
             desk support. Graduated from Texas State University in December 2023
             with a Bachelor of Science in Computer Science, I possess a robust
@@ -63,35 +95,37 @@
             environment enhances my development work, ensuring solutions that
             exceed user expectations.
           </p>
-          <v-btn tile dark color="black" class="mt-4" @click="downloadPDF">
-            Download Resume
-          </v-btn>
         </div>
       </v-col>
+      <br />
+      <br />
       <br />
       <v-divider />
       <v-col cols="12" id="portfolio">
         <div class="pre">
-          <div
-            style="
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              gap: 10px;
-            "
-          >
-            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
-            <h1 class="mt-16">Projects</h1>
-            <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
-          </div>
+          <br />
+          <br />
+          <br />
+          <span class="text-grey">Browse My</span>
+          <h1 class="text-black">Projects</h1>
           <br />
           <v-row>
             <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="Sentiment_Img.png" height="200px" cover></v-img>
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="675"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="Sentiment_Img.png"
+                  height="200px"
+                  cover
+                ></v-img>
                 <v-card-title>Sentiment Analysis</v-card-title>
                 <v-card-subtitle> October 2022 </v-card-subtitle>
-                <v-card-text>
+                <v-card-text style="min-height: 200px">
                   This Java program classifies a set of movie reviews as
                   positive or negative based on their sentiment. This project
                   was completed for my Object-Oriented Design and Programming
@@ -104,7 +138,7 @@
                     justify-content: center;
                   "
                 >
-                  <div style="width: 25%; margin-bottom: 20px">
+                  <div style="width: 100%; margin-bottom: 20px">
                     <v-icon
                       style="
                         background-image: url('Java.png');
@@ -140,12 +174,22 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="Expense_Img.png" height="200px" cover></v-img>
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="675"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="Expense_Img.png"
+                  height="200px"
+                  cover
+                ></v-img>
                 <v-card-title>Budget Manager</v-card-title>
 
                 <v-card-subtitle> December 2022 </v-card-subtitle>
-                <v-card-text>
+                <v-card-text style="min-height: 200px">
                   Budget Manager is an app built with React.js to help manage
                   your month-to-month expenses. Users can edit their monthly
                   budget and add/remove expenses. After adding an expense, it
@@ -227,11 +271,21 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="Notes_Img.png" height="200px" cover></v-img>
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="675"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="Notes_Img.png"
+                  height="200px"
+                  cover
+                ></v-img>
                 <v-card-title>Notes App</v-card-title>
                 <v-card-subtitle> July 2023 </v-card-subtitle>
-                <v-card-text>
+                <v-card-text style="min-height: 200px">
                   Notes app is an app built with typescript to help manage any
                   notes you need, functions the same way as the ios notes app on
                   your iphone. The app utilizes speech recognition, allowing the
@@ -327,11 +381,21 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="RecSys_Img.png" height="200px" cover></v-img>
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="675"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="RecSys_Img.png"
+                  height="200px"
+                  cover
+                ></v-img>
                 <v-card-title>Yelp Recommender System</v-card-title>
                 <v-card-subtitle> November 2023 </v-card-subtitle>
-                <v-card-text>
+                <v-card-text style="min-height: 200px">
                   Created for a final project for my Recommender Systems class,
                   this program provides better recommendations to users than
                   yelp would by utilizing the surprise machine learning library
@@ -382,11 +446,21 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="Fly_Img.png" height="200px" cover></v-img>
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="675"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="Fly_Img.png"
+                  height="200px"
+                  cover
+                ></v-img>
                 <v-card-title>Fly.mov</v-card-title>
                 <v-card-subtitle> January 2024 </v-card-subtitle>
-                <v-card-text>
+                <v-card-text style="min-height: 200px">
                   This is a pvp based game built with the Roblox Studio game
                   engine using Lua as the programming langauge. The combat and
                   mechanics are inspired by Homelander from the TV show "The
@@ -400,7 +474,7 @@
                     margin-bottom: 20px;
                   "
                 >
-                  <div style="width: 25%">
+                  <div style="width: 50%">
                     <v-icon
                       style="
                         background-image: url('RBX.png');
@@ -412,7 +486,7 @@
                     <br />
                     <span class="text-caption">Roblox Studio</span>
                   </div>
-                  <div style="width: 25%">
+                  <div style="width: 50%">
                     <v-icon
                       style="
                         background-image: url('Lua.png');
@@ -461,11 +535,21 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="HF_Census_Img.png" height="200px" cover></v-img>
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="675"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="HF_Census_Img.png"
+                  height="200px"
+                  cover
+                ></v-img>
                 <v-card-title>Holdfast Melee Census</v-card-title>
                 <v-card-subtitle> February 2024 </v-card-subtitle>
-                <v-card-text>
+                <v-card-text style="min-height: 200px">
                   Holdfast Melee Census is a tool created for the Holdfast:
                   Nations at War community to facilitate the tracking and
                   analysis of player location data. It provides an easy-to-use
@@ -562,51 +646,39 @@
         </div>
       </v-col>
       <br />
+      <br />
+      <br />
       <v-divider />
       <v-col id="skills">
-        <div
-          style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-          "
-        >
-          <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
-          <h1 class="mt-16">Skills</h1>
-          <v-icon class="fa-solid fa-diamond mt-16" style="font-size: 12px" />
+        <div class="pre">
+          <br />
+          <br />
+          <br />
+          <span class="text-grey">Explore My</span>
+          <h1 class="text-black">Skills</h1>
+          <v-row>
+            <v-col cols="12">
+              <div class="child">
+                <CarouselContainer />
+              </div>
+            </v-col>
+          </v-row>
         </div>
-        <v-row>
-          <v-col cols="12">
-            <div class="child">
-              <CarouselContainer />
-            </div>
-          </v-col>
-        </v-row>
       </v-col>
+      <br />
+      <br />
+      <br />
       <v-divider />
       <v-col cols="12" sm="12" id="contact">
-        <v-row>
-          <v-col cols="12">
-            <div class="child">
-              <div
-                style="
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  gap: 10px;
-                "
-              >
-                <v-icon
-                  class="fa-solid fa-diamond mt-16"
-                  style="font-size: 12px"
-                />
-                <h1 class="mt-16">Contact Info</h1>
-                <v-icon
-                  class="fa-solid fa-diamond mt-16"
-                  style="font-size: 12px"
-                />
-              </div>
+        <div class="pre">
+          <br />
+          <br />
+          <br />
+          <span class="text-grey">Get In Touch</span>
+          <h1 class="text-black">Contact Me</h1>
+          <br />
+          <div style="display: flex; gap: 10%">
+            <v-card class="item-card" elevation="2" style="width: 100%">
               <div
                 style="
                   display: flex;
@@ -616,44 +688,23 @@
                 "
               >
                 <div style="width: 33.33%">
-                  <v-btn icon="fas fa-phone-alt" color="" class="mt-10" /><br />
-                  <span class="text-caption">+1 512-635-9513</span>
+                  <v-icon icon="fa-solid fa-phone" /><br /><br />
+                  <span class="text-grey">+1 512-635-9513</span>
                 </div>
                 <div style="width: 33.34%">
-                  <v-btn
-                    icon="fas fa-map-marker-alt"
-                    color=""
-                    class="mt-10"
-                  /><br />
-                  <span class="text-caption"
+                  <v-icon icon="fa-solid fa-location-dot" /><br /><br />
+                  <span class="text-grey"
                     >1647 Post Rd San Marcos, TX 78666
                   </span>
                 </div>
                 <div style="width: 33.33%">
-                  <v-btn icon="fas fa-envelope" color="" class="mt-10" /><br />
-                  <span class="text-caption">derekavila1086@gmail.com </span>
+                  <v-icon icon="fa-solid fa-envelope" /><br /><br />
+                  <span class="text-grey">derekavila1086@gmail.com</span>
                 </div>
-              </div>
-              <br />
-              <v-btn
-                class="m1-10"
-                icon="fa-brands fa-square-github"
-                variant="plain"
-                color=""
-                @click="openLink('https://github.com/Derek1086')"
-              />
-              <v-btn
-                class="m1-10"
-                icon="fa-brands fa-linkedin"
-                variant="plain"
-                color=""
-                @click="
-                  openLink('https://www.linkedin.com/in/derek-avila-950657236/')
-                "
-              />
-            </div>
-          </v-col>
-        </v-row>
+              </div></v-card
+            >
+          </div>
+        </div>
       </v-col>
     </v-container>
   </v-app>
@@ -774,7 +825,7 @@ export default defineComponent({
   text-align: center;
   padding: 12px;
   margin-bottom: 6px;
-  height: 250px;
+  height: 300px;
   width: 100%;
   color: white;
 }
@@ -801,22 +852,32 @@ export default defineComponent({
   transform: skew(0deg, -6deg);
 }
 
+.download-btn {
+  border-radius: 20px !important;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+}
+
+.download-btn:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.item-card {
+  border-radius: 20px !important;
+  border: 2px solid black;
+  padding: 20px;
+}
+
 .child {
   display: inline-block;
   padding: 2rem 1rem;
   vertical-align: middle;
   text-align: center;
   width: 100%;
-}
-
-.cont {
-  width: 100%;
-  display: flex;
-}
-
-.sect {
-  width: 50%;
-  height: 100%;
 }
 
 .pre {
@@ -829,5 +890,6 @@ export default defineComponent({
   width: 100%;
   text-align: center;
   padding: 0 200px;
+  margin-top: 5%;
 }
 </style>

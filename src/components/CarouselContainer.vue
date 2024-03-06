@@ -96,7 +96,6 @@ export default {
 .carousel {
   width: 100%;
   text-align: center;
-  padding: 10px 60px;
   display: flex;
 }
 
