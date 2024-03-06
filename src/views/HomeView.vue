@@ -52,6 +52,9 @@
             environment enhances my development work, ensuring solutions that
             exceed user expectations.
           </p>
+          <v-btn tile dark color="purple" class="mt-4" @click="downloadPDF">
+            Download Resume
+          </v-btn>
         </div>
       </v-col>
       <br />
@@ -906,6 +909,7 @@ export default defineComponent({
     openLink(url) {
       window.open(url, "_blank");
     },
+    async downloadResume() {},
   },
   components: {
     NavBar,
