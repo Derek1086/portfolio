@@ -366,8 +366,10 @@
                 <v-card-subtitle> January 2024 </v-card-subtitle>
                 <v-card-text>
                   This is a pvp based game built with the Roblox Studio game
-                  engine using Lua as the programming langauge. This is a small
-                  project done in a week to test my game development skills.
+                  engine using Lua as the programming langauge. The combat and
+                  mechanics are inspired by Homelander from the TV show "The
+                  Boys." This is a small project done in a week to test my game
+                  development skills.
                 </v-card-text>
                 <div
                   style="
@@ -556,14 +558,26 @@
                     <div class="childSkills">
                       <v-icon
                         style="
-                          background-image: url('Reactjs.png');
+                          background-image: url('HTML5.png');
                           background-size: contain;
                           height: 50px;
                           width: 50px;
                         "
                       />
                       <br />
-                      <span class="text-caption">ReactJS</span>
+                      <span class="text-caption">HTML5</span>
+                    </div>
+                    <div class="childSkills">
+                      <v-icon
+                        style="
+                          background-image: url('css.png');
+                          background-size: contain;
+                          height: 50px;
+                          width: 50px;
+                        "
+                      />
+                      <br />
+                      <span class="text-caption">CSS</span>
                     </div>
                     <div class="childSkills">
                       <v-icon
@@ -592,14 +606,14 @@
                     <div class="childSkills">
                       <v-icon
                         style="
-                          background-image: url('css.png');
+                          background-image: url('Reactjs.png');
                           background-size: contain;
                           height: 50px;
                           width: 50px;
                         "
                       />
                       <br />
-                      <span class="text-caption">CSS</span>
+                      <span class="text-caption">ReactJS</span>
                     </div>
                     <div class="childSkills">
                       <v-icon
@@ -612,18 +626,6 @@
                       />
                       <br />
                       <span class="text-caption">Material UI</span>
-                    </div>
-                    <div class="childSkills">
-                      <v-icon
-                        style="
-                          background-image: url('Tailwind.png');
-                          background-size: contain;
-                          height: 50px;
-                          width: 50px;
-                        "
-                      />
-                      <br />
-                      <span class="text-caption">Tailwind CSS</span>
                     </div>
                     <div class="childSkills">
                       <v-icon
@@ -691,6 +693,18 @@
                       />
                       <br />
                       <span class="text-caption">Firebase</span>
+                    </div>
+                    <div class="childSkills">
+                      <v-icon
+                        style="
+                          background-image: url('Vercel.png');
+                          background-size: contain;
+                          height: 50px;
+                          width: 50px;
+                        "
+                      />
+                      <br />
+                      <span class="text-caption">Vercel</span>
                     </div>
                   </div>
                 </div>
@@ -861,6 +875,9 @@ export default defineComponent({
           img: "mongodb.png",
         },
         {
+          img: "HTML5.png",
+        },
+        {
           img: "mui.png",
         },
         {
@@ -882,9 +899,6 @@ export default defineComponent({
           img: "vue.png",
         },
         {
-          img: "Tailwind.png",
-        },
-        {
           img: "Python.png",
         },
         {
@@ -901,6 +915,9 @@ export default defineComponent({
         },
         {
           img: "RBX.png",
+        },
+        {
+          img: "Vercel.png",
         },
       ],
     };
