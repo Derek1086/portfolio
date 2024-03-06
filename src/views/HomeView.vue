@@ -910,14 +910,11 @@ export default defineComponent({
       window.open(url, "_blank");
     },
     downloadPDF() {
-      console.log("clicked");
-      // create element <a> for download PDF
       const link = document.createElement("a");
       link.href = "Derek_A_Resume.pdf";
       link.target = "_blank";
       link.download = "Derek_A_Resume.pdf";
 
-      // Simulate a click on the element <a>
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
