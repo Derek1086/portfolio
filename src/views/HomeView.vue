@@ -9,17 +9,18 @@
             style="display: flex; justify-content: center; align-items: center"
           >
             <div style="position: relative; z-index: 1" class="mt-16">
-              <h1 class="text-grey">Hello,</h1>
-              <h1 class="text-white">I'm Derek Avila</h1>
-              <span class="text-grey"
+              <h1 class="text-grey title-text">Hello,</h1>
+              <h1 class="text-white main-text">I'm Derek Avila</h1>
+              <span class="text-grey sub-text"
                 >Aspiring Web Developer and Software Engineer</span
               >
               <br />
               <v-btn tile dark class="mt-4 download-btn" @click="downloadPDF">
                 Download Resume
               </v-btn>
-              <div>
+              <div class="mt-3">
                 <v-btn
+                  size="small"
                   class="m1-10"
                   icon="fa-brands fa-github"
                   variant="plain"
@@ -27,6 +28,7 @@
                   @click="openLink('https://github.com/Derek1086')"
                 />
                 <v-btn
+                  size="small"
                   class="m1-10"
                   icon="fa-brands fa-linkedin-in"
                   variant="plain"
@@ -40,20 +42,6 @@
               </div>
             </div>
           </v-col>
-          <v-col cols="2">
-            <div
-              style="
-                position: absolute;
-                z-index: 9999;
-                bottom: 0;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-              "
-            ></div>
-          </v-col>
         </v-row>
       </div>
       <v-col cols="12" id="about">
@@ -64,23 +52,22 @@
           <div style="display: flex; gap: 10%">
             <v-card class="item-card" elevation="2" style="width: 45%">
               <v-icon class="fa-solid fa-graduation-cap" />
-              <h3 class="mt-4">Education</h3>
-              <span class="text-grey">Texas State University</span><br />
-              <span class="text-grey"
+              <h3 class="mt-4 title-text">Education</h3>
+              <span class="text-grey desc">Texas State University</span><br />
+              <span class="text-grey desc-sub"
                 >Bachelor's of Science in Computer Science</span
               >
             </v-card>
             <v-card class="item-card" elevation="2" style="width: 45%">
               <v-icon class="fa-solid fa-award" />
-              <h3 class="mt-4">Certifications</h3>
-              <span class="text-grey">Udemy</span><br />
-              <span class="text-grey"
-                >React - The Complete Guide (incl Hooks, React Router,
-                Redux)</span
+              <h3 class="mt-4 title-text">Certifications</h3>
+              <span class="text-grey desc">Udemy</span><br />
+              <span class="text-grey desc-sub"
+                >React - The Complete Guide</span
               ></v-card
             >
           </div>
-          <p class="text-grey mt-4">
+          <p class="text-grey mt-4 desc">
             I'm a passionate software developer with a solid foundation in help
             desk support. Graduated from Texas State University in December 2023
             with a Bachelor of Science in Computer Science, I possess a robust
@@ -138,7 +125,7 @@
                     justify-content: center;
                   "
                 >
-                  <div style="width: 100%; margin-bottom: 20px">
+                  <div style="width: 50%; margin-bottom: 20px">
                     <v-icon
                       style="
                         background-image: url('Java.png');
@@ -158,7 +145,7 @@
                     justify-content: center;
                   "
                 >
-                  <div style="width: 100%; margin-bottom: 20px">
+                  <div style="width: 50%; margin-bottom: 20px">
                     <div
                       style="
                         display: flex;
@@ -798,16 +785,8 @@
           <span class="text-grey">Get In Touch</span>
           <h1 class="text-black">Contact Me</h1>
           <br />
-          <div
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 10%;
-              flex-wrap: wrap;
-            "
-          >
-            <v-card class="item-card" elevation="2" style="width: 50%">
+          <div class="contact-box">
+            <v-card class="item-card-contact" elevation="2">
               <div
                 style="
                   display: flex;
@@ -818,11 +797,13 @@
               >
                 <div style="width: 50%">
                   <v-icon icon="fa-solid fa-phone" /><br /><br />
-                  <span class="text-grey">+1 512-635-9513</span>
+                  <span class="text-grey contact-text">+1 512-635-9513</span>
                 </div>
                 <div style="width: 50%">
                   <v-icon icon="fa-solid fa-envelope" /><br /><br />
-                  <span class="text-grey">derekavila1086@gmail.com</span>
+                  <span class="text-grey contact-text"
+                    >derekavila1086@gmail.com</span
+                  >
                 </div>
               </div></v-card
             >
@@ -951,8 +932,8 @@ export default defineComponent({
   text-align: center;
   padding: 12px;
   margin-bottom: 6px;
-  height: 300px;
-  width: 100%;
+  height: 45vh;
+  width: 100% !important;
   color: white;
 }
 
@@ -998,10 +979,18 @@ export default defineComponent({
   padding: 20px;
 }
 
+.item-card-contact {
+  border-radius: 20px !important;
+  border: 2px solid black;
+  padding: 20px;
+  width: 50%;
+}
+
 .button-card {
   border-radius: 20px !important;
   border: 2px solid black;
   text-align: center;
+  width: 90%;
 }
 
 .button-card:hover {
@@ -1021,5 +1010,65 @@ export default defineComponent({
   text-align: center;
   padding: 0 200px;
   margin-top: 5%;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .head {
+    width: 100% !important;
+  }
+
+  .title-text {
+    font-size: 1rem;
+  }
+
+  .main-text {
+    font-size: 1.5rem;
+  }
+
+  .sub-text {
+    font-size: 0.6rem;
+  }
+
+  .pre-extra {
+    width: 100%;
+    text-align: center;
+    padding: 0 0px;
+    margin-top: 5%;
+  }
+
+  .pre {
+    width: 100%;
+    text-align: center;
+    padding: 0 0px;
+    margin-top: 5%;
+  }
+
+  .desc {
+    font-size: 0.65rem;
+  }
+
+  .desc-sub {
+    font-size: 0.55rem;
+  }
+
+  .contact-box {
+    width: 100%;
+  }
+
+  .item-card-contact {
+    width: 97.5%;
+  }
+
+  .contact-text {
+    font-size: 0.7rem;
+  }
 }
 </style>

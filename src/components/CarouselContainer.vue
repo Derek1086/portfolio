@@ -22,12 +22,12 @@
                 :style="{
                   'background-image': `url('${skill.icon}')`,
                   'background-size': 'contain',
-                  height: '55px',
-                  width: '55px',
                 }"
               />
               <br />
-              <span class="text-caption">{{ skill.name }}</span>
+              <span class="text-caption" style="margin-bottom: 20px">{{
+                skill.name
+              }}</span>
             </div>
           </div>
         </div>
@@ -93,6 +93,11 @@ export default {
 </script>
 
 <style scoped>
+.v-icon {
+  height: 55px;
+  width: 55px;
+}
+
 .carousel {
   width: 100%;
   text-align: center;
@@ -100,7 +105,7 @@ export default {
 }
 
 .slides {
-  width: 95%;
+  width: 90%;
   height: 100%;
 }
 
@@ -126,5 +131,12 @@ export default {
   align-items: center;
   text-align: center;
   height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .v-icon {
+    height: 25px;
+    width: 25px;
+  }
 }
 </style>
