@@ -8,7 +8,7 @@ View [here](https://portfolio-derek-avila.vercel.app/)
 
 ## Introduction
 
-This portfolio is a host website to showcase all my projects and experience in software development. This was built in the Vue.js framework, which is one I've never done before.
+This portfolio is a host website to showcase all my projects and experience in software development. This was built in the Vue.js framework and used Vuetify for most of the components.
 
 ## Features
 
