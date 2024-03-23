@@ -1,24 +1,15 @@
-# portfolio
+# Portfolio Website
 
-## Project setup
-```
-npm install
-```
+View [here](https://portfolio-derek-avila.vercel.app/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Introduction
 
-### Lints and fixes files
-```
-npm run lint
-```
+This portfolio is a host website to showcase all my projects and experience in software development. This was built in the Vue.js framework and used Vuetify for most of the components.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Features
+
+- **Responsive Design:** The UI will readjust to fit any device
