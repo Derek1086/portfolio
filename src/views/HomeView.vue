@@ -161,7 +161,7 @@
                           )
                         "
                       >
-                        <h4>Code</h4>
+                        <h5>Code</h5>
                         <v-icon
                           icon="fa-brands fa-github"
                           style="margin-left: 10px"
@@ -262,7 +262,7 @@
                           openLink('https://github.com/Derek1086/expense-app')
                         "
                       >
-                        <h4>Code</h4>
+                        <h5>Code</h5>
                         <v-icon
                           icon="fa-brands fa-github"
                           style="margin-left: 10px"
@@ -284,7 +284,7 @@
                           openLink('https://react-practice-9e728.web.app/')
                         "
                       >
-                        <h4>Live Demo</h4>
+                        <h5>Live Demo</h5>
                         <v-icon
                           icon="fa-solid fa-arrow-up-right-from-square"
                           style="margin-left: 10px"
@@ -396,7 +396,7 @@
                           openLink('https://github.com/Derek1086/notes-app')
                         "
                       >
-                        <h4>Code</h4>
+                        <h5>Code</h5>
                         <v-icon
                           icon="fa-brands fa-github"
                           style="margin-left: 10px"
@@ -418,7 +418,7 @@
                           openLink('https://dereks-notes-web-app.web.app/notes')
                         "
                       >
-                        <h4>Live Demo</h4>
+                        <h5>Live Demo</h5>
                         <v-icon
                           icon="fa-solid fa-arrow-up-right-from-square"
                           style="margin-left: 10px"
@@ -495,7 +495,7 @@
                           )
                         "
                       >
-                        <h4>Code</h4>
+                        <h5>Code</h5>
                         <v-icon
                           icon="fa-brands fa-github"
                           style="margin-left: 10px"
@@ -584,7 +584,7 @@
                           )
                         "
                       >
-                        <h4>Code</h4>
+                        <h5>Code</h5>
                         <v-icon
                           icon="fa-brands fa-github"
                           style="margin-left: 10px"
@@ -608,7 +608,7 @@
                           )
                         "
                       >
-                        <h4>Live Demo</h4>
+                        <h5>Live Demo</h5>
                         <v-icon
                           icon="fa-solid fa-arrow-up-right-from-square"
                           style="margin-left: 10px"
@@ -652,14 +652,14 @@
                   <div style="width: 25%">
                     <v-icon
                       style="
-                        background-image: url('Reactjs.png');
+                        background-image: url('Nextjs.png');
                         background-size: contain;
                         height: 35px;
                         width: 35px;
                       "
                     />
                     <br />
-                    <span class="text-caption">ReactJS</span>
+                    <span class="text-caption">Nextjs</span>
                   </div>
                   <div style="width: 25%">
                     <v-icon
@@ -722,7 +722,7 @@
                           )
                         "
                       >
-                        <h4>Code</h4>
+                        <h5>Code</h5>
                         <v-icon
                           icon="fa-brands fa-github"
                           style="margin-left: 10px"
@@ -742,7 +742,7 @@
                         class="button-card"
                         @click="openLink('https://holdfast-census.vercel.app/')"
                       >
-                        <h4>Live Demo</h4>
+                        <h5>Live Demo</h5>
                         <v-icon
                           icon="fa-solid fa-arrow-up-right-from-square"
                           style="margin-left: 10px"
