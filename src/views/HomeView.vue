@@ -753,6 +753,274 @@
                 </div>
               </v-card>
             </v-col>
+            <v-col cols="12" sm="4">
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="600"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="Wizard101_Raid_Guide.png"
+                  height="200px"
+                  cover
+                ></v-img>
+                <v-card-title>Wizard101 Raid Guide</v-card-title>
+                <v-card-subtitle> May 2024 </v-card-subtitle>
+                <v-card-text style="min-height: 200px">
+                  This is an easy-to-use cheat sheet for all roles in the Crying
+                  Sky Raid in Wizard101. Each role has in-depth instructions of
+                  each step and displays the order of what to do them in.
+                </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Reactjs.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">ReactJS</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('TypeScript.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">TypeScript</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('mui.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Material UI</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Vercel.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Vercel</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 50%">
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                      "
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink(
+                            'https://github.com/Derek1086/wizard101-raid-guide'
+                          )
+                        "
+                      >
+                        <h5>Code</h5>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
+                  </div>
+                  <div style="width: 50%">
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                      "
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink('https://wizard101-raid-guide.vercel.app/')
+                        "
+                      >
+                        <h5>Live Demo</h5>
+                        <v-icon
+                          icon="fa-solid fa-arrow-up-right-from-square"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
+                  </div>
+                </div>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="4">
+              <v-card
+                class="item-card"
+                elevation="2"
+                max-width="344"
+                min-height="600"
+              >
+                <v-img
+                  style="border-radius: 20px"
+                  src="blog_app.png"
+                  height="200px"
+                  cover
+                ></v-img>
+                <v-card-title>Blog Website</v-card-title>
+                <v-card-subtitle> June 2024 </v-card-subtitle>
+                <v-card-text style="min-height: 200px">
+                  This is a blog management system that allows users to create
+                  and manage their accounts, posts, and comments. It is built
+                  using Node.js, Express.js, MongoDB, React and Vite.
+                </v-card-text>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('Reactjs.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">ReactJS</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('mongodb.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">MongoDB</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('mui.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">Material UI</span>
+                  </div>
+                  <div style="width: 25%">
+                    <v-icon
+                      style="
+                        background-image: url('nodejs.png');
+                        background-size: contain;
+                        height: 35px;
+                        width: 35px;
+                      "
+                    />
+                    <br />
+                    <span class="text-caption">NodeJS</span>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <div style="width: 50%">
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                      "
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink(
+                            'https://github.com/Derek1086/wizard101-raid-guide'
+                          )
+                        "
+                      >
+                        <h5>Code</h5>
+                        <v-icon
+                          icon="fa-brands fa-github"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
+                  </div>
+                  <div style="width: 50%">
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                      "
+                    >
+                      <v-btn
+                        class="button-card"
+                        @click="
+                          openLink('https://wizard101-raid-guide.vercel.app/')
+                        "
+                      >
+                        <h5>Live Demo</h5>
+                        <v-icon
+                          icon="fa-solid fa-arrow-up-right-from-square"
+                          style="margin-left: 10px"
+                        />
+                      </v-btn>
+                    </div>
+                  </div>
+                </div>
+              </v-card>
+            </v-col>
           </v-row>
         </div>
       </v-col>
