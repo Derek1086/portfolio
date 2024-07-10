@@ -983,36 +983,12 @@
                       <v-btn
                         class="button-card"
                         @click="
-                          openLink(
-                            'https://github.com/Derek1086/wizard101-raid-guide'
-                          )
+                          openLink('https://github.com/Derek1086/blog-app')
                         "
                       >
                         <h5>Code</h5>
                         <v-icon
                           icon="fa-brands fa-github"
-                          style="margin-left: 10px"
-                        />
-                      </v-btn>
-                    </div>
-                  </div>
-                  <div style="width: 50%">
-                    <div
-                      style="
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                      "
-                    >
-                      <v-btn
-                        class="button-card"
-                        @click="
-                          openLink('https://wizard101-raid-guide.vercel.app/')
-                        "
-                      >
-                        <h5>Live Demo</h5>
-                        <v-icon
-                          icon="fa-solid fa-arrow-up-right-from-square"
                           style="margin-left: 10px"
                         />
                       </v-btn>
